@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.938,=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.582,=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.923,C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\Unit1.pas=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\UTWordsDictionary.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.729,=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.377,=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.263,=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.517,C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\UTSegY.pas=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.166,C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\Unit2.fmx=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\UImportFormModal.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.533,C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\UclSegY.pas=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.875,C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\USegY.fmx=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\USegY.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.325,C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\USegY.fmx=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.814,=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.891,C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\Unit1.pas=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\UProfileData.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.360,C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\Unit1.pas=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\StringTextDate\UCDPoint.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.734,C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\Unit1.pas=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\UArrayCoord.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.046,C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\Unit1.pas=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\StringTextDate\UStringTextData.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.228,C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\Unit1.pas=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\UHeadersTraces.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.327,=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.790,=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.331,=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.851,=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.646,=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.646,=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.875,C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\USegY.pas=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\USegY.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.647,=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.071,C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\UCoordinateImportExport.pas=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.916,=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.256,C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\UclTraceSegY.pas=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.149,C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\Unit2.pas=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\UImportFormModal.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.915,C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\USegY.fmx=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\UI_ESegYCoordinates.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.599,C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\SegY.dproj=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\I_ESegYCoordinates.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.078,C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\SegY.dproj=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.020,=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\ModelSupport_I_ESegYCoordinates\default.txaPackage</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.355,C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\UMyTraceSegY.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.116,C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\UTTraceSegY.pas=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.747,C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\UclTraceSegY.pas=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\UMyTraceSegY.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.157,C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\StringTextDate\UStringTextData.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.053,C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\Interfaces\UInterfaceModel.pas=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.417,=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\ModelSupport_I_ESegYCoordinates\default.txvpck</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.300,C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\USegY.pas=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.034,C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\ModelSupport_I_ESegYCoordinates\default.txvpck=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.915,=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\Format.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.459,C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\UMySegY.pas=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\UclSegY.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.909,C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\USegY.pas=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\UI_ESegYCoordinates.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.975,C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\UMySegY.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.599,C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\UImportFormModal.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.899,=C:\Users\Антон Магомедов\Documents\Embarcadero\Studio\Projects\segy\UImportFormModal.pas</Transaction>
+  </Transactions>
+</BorlandProject>

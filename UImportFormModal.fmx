@@ -1,0 +1,124 @@
+object ImportFormModal: TImportFormModal
+  Left = 708
+  Top = 367
+  Caption = #1048#1084#1087#1086#1088#1090' '#1090#1077#1082#1089#1090#1086#1074#1086#1075#1086' '#1092#1072#1081#1083#1072
+  ClientHeight = 197
+  ClientWidth = 322
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  Left = 708
+  Top = 367
+  DesignerMasterStyle = 0
+  object edOpenImportFile: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 0
+    Position.X = 8.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 305.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    OnChangeTracking = edOpenImportFileChangeTracking
+    object btEdOpenImportFile: TEditButton
+      CanFocus = False
+      Cursor = crArrow
+      Size.Width = 28.000000000000000000
+      Size.Height = 18.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      OnClick = btEdOpenImportFileClick
+    end
+  end
+  object dgOpen2: TOpenDialog
+    Filter = #1058#1077#1082#1089#1090#1086#1074#1099#1081' '#1092#1072#1081#1083'|*.txt;*.dat'
+    Options = [ofHideReadOnly, ofAllowMultiSelect, ofEnableSizing]
+    Left = 1
+  end
+  object cbxProfileName: TComboBox
+    Position.X = 168.000000000000000000
+    Position.Y = 35.000000000000000000
+    Size.Width = 145.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    OnChange = cbxProfileNameChange
+  end
+  object Label1: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 10.000000000000000000
+    Position.Y = 35.000000000000000000
+    Size.Width = 151.000000000000000000
+    Size.Height = 20.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 14.000000000000000000
+    Text = #1059#1082#1072#1078#1080#1090#1077' '#1080#1084#1103' '#1087#1088#1086#1092#1080#1083#1103
+  end
+  object Label2: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 10.000000000000000000
+    Position.Y = 65.000000000000000000
+    Size.Width = 143.000000000000000000
+    Size.Height = 20.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 14.000000000000000000
+    Text = #1059#1082#1072#1078#1080#1090#1077' '#1085#1086#1084#1077#1088' '#1054#1043#1058
+  end
+  object Label3: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 10.000000000000000000
+    Position.Y = 95.000000000000000000
+    Size.Width = 151.000000000000000000
+    Size.Height = 20.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 14.000000000000000000
+    Text = #1059#1082#1072#1078#1080#1090#1077' '#1082#1086#1086#1088#1076#1080#1085#1072#1090#1091' X'
+  end
+  object Label4: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 10.000000000000000000
+    Position.Y = 125.000000000000000000
+    Size.Width = 151.000000000000000000
+    Size.Height = 20.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 14.000000000000000000
+    Text = #1059#1082#1072#1078#1080#1090#1077' '#1082#1086#1086#1088#1076#1080#1085#1072#1090#1091' Y'
+  end
+  object cbxCDP: TComboBox
+    Position.X = 168.000000000000000000
+    Position.Y = 65.000000000000000000
+    Size.Width = 145.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    OnChange = cbxCDPChange
+  end
+  object cbxCoordinateX: TComboBox
+    Position.X = 168.000000000000000000
+    Position.Y = 95.000000000000000000
+    Size.Width = 145.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    OnChange = cbxCoordinateXChange
+  end
+  object cbxCoordinateY: TComboBox
+    Position.X = 168.000000000000000000
+    Position.Y = 125.000000000000000000
+    Size.Width = 145.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    OnChange = cbxCoordinateYChange
+  end
+  object startImport: TButton
+    Align = Bottom
+    Position.Y = 160.000000000000000000
+    Size.Width = 322.000000000000000000
+    Size.Height = 37.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 10
+    Text = #1053#1072#1095#1072#1090#1100' '#1080#1084#1087#1086#1088#1090
+    OnClick = startImportClick
+  end
+end

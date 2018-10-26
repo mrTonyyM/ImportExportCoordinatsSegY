@@ -1,0 +1,337 @@
+object Form1: TForm1
+  Left = 525
+  Top = 236
+  Caption = 'I/ESegYCoordinates'
+  ClientHeight = 543
+  ClientWidth = 691
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnClose = FormClose
+  Left = 525
+  Top = 236
+  DesignerMasterStyle = 0
+  object Open1: TOpenDialog
+    Filter = #1057#1077#1081#1089#1084#1086#1075#1072#1088#1084#1084#1099'|*.sgy;*.seg;*.segy'
+    Options = [ofHideReadOnly, ofAllowMultiSelect, ofEnableSizing]
+    Left = 8
+    Top = 144
+  end
+  object Panel1: TPanel
+    Align = Left
+    Size.Width = 73.000000000000000000
+    Size.Height = 425.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object btExportCoord: TButton
+      Hint = 
+        #1069#1082#1089#1087#1086#1088#1090' '#1082#1086#1086#1088#1076#1080#1085#1072#1090' '#1088#1072#1079#1088#1077#1079#1086#1074' '#1074' '#1090#1077#1082#1089#1090#1086#1074#1099#1081' '#1092#1072#1081#1083', '#1088#1072#1079#1076#1077#1083#1080#1090#1077#1083#1100' - '#1079#1085#1072#1082' ' +
+        #1090#1072#1073#1091#1083#1103#1094#1080#1080
+      Position.X = 3.000000000000000000
+      Position.Y = 50.000000000000000000
+      Size.Width = 65.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = #1069#1082#1089#1087#1086#1088#1090' '#1082#1086#1086#1088#1076#1080#1085#1072#1090
+      TextSettings.WordWrap = True
+      ParentShowHint = False
+      ShowHint = True
+      OnClick = btExportCoordClick
+    end
+    object btOpen: TButton
+      Hint = #1054#1090#1082#1088#1099#1090#1100' '#1089#1077#1081#1089#1084#1080#1095#1077#1089#1082#1080#1077' '#1088#1072#1079#1088#1077#1079#1099' '#1092#1086#1088#1084#1072#1090#1072' .sgy;.seg;.segy'
+      Position.X = 3.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 65.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = #1054#1090#1082#1088#1099#1090#1100' SEGY'
+      TextSettings.WordWrap = True
+      ParentShowHint = False
+      ShowHint = True
+      OnClick = btOpenClick
+    end
+    object btImportCoord: TButton
+      Enabled = False
+      Hint = #1048#1084#1087#1086#1088#1090' '#1082#1086#1086#1088#1076#1080#1085#1072#1090' '#1074' '#1089#1077#1081#1089#1084#1080#1095#1077#1089#1082#1080#1077' '#1088#1072#1079#1088#1077#1079#1099
+      Position.X = 3.000000000000000000
+      Position.Y = 140.000000000000000000
+      Size.Width = 65.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = #1048#1084#1087#1086#1088#1090' '#1082#1086#1086#1088#1076#1080#1085#1072#1090
+      TextSettings.WordWrap = True
+      Visible = False
+      ParentShowHint = False
+      ShowHint = True
+      OnClick = btImportCoordClick
+    end
+    object btOpenTXT: TButton
+      Hint = 
+        #1054#1090#1082#1088#1099#1090#1100' '#1090#1077#1082#1089#1090' '#1089' '#1082#1086#1086#1088#1076#1080#1085#1072#1090#1072#1084#1080', '#1088#1072#1079#1076#1077#1083#1080#1090#1077#1083#1100' - '#1079#1085#1072#1082' '#1090#1072#1073#1091#1083#1103#1094#1080#1080'; '#1059#1082#1072#1079 +
+        #1072#1090#1100' '#1087#1091#1090#1100' '#1082' '#1089#1077#1081#1089#1084#1080#1095#1077#1089#1082#1080#1084' '#1088#1072#1079#1088#1077#1079#1072#1084
+      Position.X = 3.000000000000000000
+      Position.Y = 95.000000000000000000
+      Size.Width = 65.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Text = #1054#1090#1082#1088#1099#1090#1100' '#1090#1077#1082#1089#1090
+      TextSettings.WordWrap = True
+      ParentShowHint = False
+      ShowHint = True
+      OnClick = btOpenTXTClick
+    end
+  end
+  object Panel2: TPanel
+    Align = Bottom
+    Position.Y = 425.000000000000000000
+    Size.Width = 691.000000000000000000
+    Size.Height = 118.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object Label1: TLabel
+      Position.X = 8.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 89.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = #1057' '#1082#1072#1082#1086#1075#1086' '#1073#1072#1081#1090#1072':'
+    end
+    object Label2: TLabel
+      Position.X = 8.000000000000000000
+      Position.Y = 24.000000000000000000
+      Size.Width = 113.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = #1050#1086#1086#1088#1076#1080#1085#1072#1090#1072' X_CDP'
+    end
+    object edCoord_X: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 3
+      Text = '73'
+      Position.X = 120.000000000000000000
+      Position.Y = 20.000000000000000000
+      Size.Width = 49.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Label4: TLabel
+      Position.X = 48.000000000000000000
+      Position.Y = 48.000000000000000000
+      Size.Width = 73.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = #1053#1086#1084#1077#1088' CDP'
+    end
+    object edNum_CDP: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 5
+      Text = '21'
+      Position.X = 120.000000000000000000
+      Position.Y = 45.000000000000000000
+      Size.Width = 49.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object StatusBar1: TStatusBar
+      Position.Y = 96.000000000000000000
+      ShowSizeGrip = True
+      Size.Width = 691.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'StatusBar1Style1'
+      TabOrder = 6
+      object ProgressBar1: TProgressBar
+        Align = Client
+        Orientation = Horizontal
+        Size.Width = 386.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Label5: TLabel
+        Align = Left
+        Size.Width = 305.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object Label3: TLabel
+      Position.X = 180.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 125.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = #1044#1077#1083#1080#1090#1100' '#1080#1083#1080' '#1085#1077' '#1076#1077#1083#1080#1090#1100':'
+    end
+    object edDelitel: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 8
+      Text = '1'
+      Position.X = 256.000000000000000000
+      Position.Y = 20.000000000000000000
+      Hint = 
+        #1054#1090#1088#1080#1094#1072#1090#1077#1083#1100#1085#1086#1077' - '#1076#1077#1083#1080#1090#1077#1083#1100'; '#1087#1086#1083#1086#1078#1080#1090#1077#1083#1100#1085#1086#1077' - '#1084#1085#1086#1078#1080#1090#1077#1083#1100'; 0 - '#1080#1079' '#1079#1072#1075#1086 +
+        #1083#1086#1074#1082#1072
+      Size.Width = 48.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      ParentShowHint = False
+      ShowHint = True
+    end
+    object edNTrace: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 9
+      Text = '1'
+      Position.X = 120.000000000000000000
+      Position.Y = 69.000000000000000000
+      Size.Width = 49.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Label6: TLabel
+      Position.X = 32.000000000000000000
+      Position.Y = 69.000000000000000000
+      Size.Width = 81.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = #1053#1086#1084#1077#1088' '#1090#1088#1072#1089#1089#1099
+    end
+    object edExt: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 11
+      Text = '.sgy'
+      Position.X = 256.000000000000000000
+      Position.Y = 64.000000000000000000
+      Size.Width = 49.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Label7: TLabel
+      Position.X = 176.000000000000000000
+      Position.Y = 40.000000000000000000
+      Size.Width = 89.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      Text = #1056#1072#1089#1096#1080#1088#1077#1085#1080#1077' '#1089#1077#1081#1089#1084#1080#1095#1077#1089#1082#1080#1093' '#1092#1072#1081#1083#1086#1074
+    end
+  end
+  object Panel3: TPanel
+    Align = Left
+    Position.X = 73.000000000000000000
+    Size.Width = 224.000000000000000000
+    Size.Height = 425.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    object TabControl1: TTabControl
+      Align = Client
+      Size.Width = 224.000000000000000000
+      Size.Height = 425.000000000000000000
+      Size.PlatformDefault = False
+      TabIndex = 0
+      TabOrder = 0
+      TabPosition = PlatformDefault
+      Sizes = (
+        224s
+        399s
+        224s
+        399s)
+      object TabLB: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = True
+        Size.Width = 111.000000000000000000
+        Size.Height = 26.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        Text = #1057#1087#1080#1089#1086#1082' '#1092#1072#1081#1083#1086#1074'  '
+        ExplicitSize.cx = 105.000000000000000000
+        ExplicitSize.cy = 26.000000000000000000
+        object LB1: TListBox
+          Align = Client
+          Size.Width = 224.000000000000000000
+          Size.Height = 399.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          DisableFocusEffect = True
+          DefaultItemStyles.ItemStyle = ''
+          DefaultItemStyles.GroupHeaderStyle = ''
+          DefaultItemStyles.GroupFooterStyle = ''
+          OnItemClick = LB1ItemClick
+          Viewport.Width = 220.000000000000000000
+          Viewport.Height = 395.000000000000000000
+        end
+      end
+      object TabTraceHeader: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = False
+        Size.Width = 110.000000000000000000
+        Size.Height = 26.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        Text = #1047#1072#1075#1086#1083#1086#1074#1086#1082' '#1090#1088#1072#1089#1089
+        ExplicitSize.cx = 110.000000000000000000
+        ExplicitSize.cy = 26.000000000000000000
+        object GridWord: TStringGrid
+          Align = Client
+          CanFocus = True
+          ClipChildren = True
+          Size.Width = 224.000000000000000000
+          Size.Height = 369.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          OnHeaderClick = GridWordHeaderClick
+          Viewport.Width = 204.000000000000000000
+          Viewport.Height = 344.000000000000000000
+          object CheckColumn1: TCheckColumn
+            Header = #1058#1082#1085#1080
+            Size.Width = 34.000000000000000000
+          end
+          object StrWord: TStringColumn
+            Header = #1047#1085#1072#1095#1077#1085#1080#1077
+            Size.Width = 65.000000000000000000
+          end
+          object DiscriptionWord: TStringColumn
+            Header = #1054#1087#1080#1089#1072#1085#1080#1077
+          end
+        end
+        object Panel4: TPanel
+          Align = Top
+          Size.Width = 224.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+        end
+      end
+    end
+  end
+  object dgSave1: TSaveDialog
+    DefaultExt = 'txt'
+    Left = 9
+    Top = 184
+  end
+  object pPaint: TPanel
+    Align = Client
+    Size.Width = 394.000000000000000000
+    Size.Height = 425.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 9
+    object Panel5: TPanel
+      Align = Top
+      Size.Width = 394.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+  end
+end
